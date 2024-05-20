@@ -1,0 +1,55 @@
+## Anotações Curso Linux - Utilizar o CLI de forma pratica
+
+### obs: para o curso é recomendado o acesso via SSH.
+
+sudo = faça como super usuário.
+
+ip addr - mostra o endereço de ip da maquina local (ou VM). (192.168.100.9)
+
+sudo apt update - para atualizando a base local com as mesma versões dos repositórios.
+
+sudo apt install - comando para a instalação do pacotes. (em distribuições derivadas do Debian)
+
+### Comandos uteis
+
+**pwd** - mostra o diretório corrente.
+
+**ls** - exibe o conteúdo do diretório corrente.
+
+**ll** - exibe o conteúdo do diretório com o formato de lista longa (atalho para o comando ls -al).
+
+**clear** - utilizado para limpar a tela do terminal.
+
+**--help** - opção que apresenta uma ajuda para o comando informando ex.(ls --help).
+
+**man** - apresenta as páginas do manual do sistema para o comando informado ex.(man pwd)
+
+**cd**  - comando para a navegação entre os diretórios (serve de atalho para acesso a home área).
+
+**mkdir** - comando para a criação de diretório
+
+**rmdir** - comando para apagar diretórios
+
+**rm** - comando para apagar arquivos e diretórios vazios
+
+**cp** - comando para copiar arquivos e diretórios
+
+**move** - comando para mover/renomear arquivos e diretórios
+
+## Localizando arquivos e conteúdos
+
+cat - mostra o conteúdo de arquivos de texto.
+
+grep - comando utilizado para localizar strings dentro do sistema.
+
+more - mostra o conteúdo dos arquivos de texto com paguinação(onde espaço pula uma página e entre pula linha a linha)
+
+less - o mesmo  que o more, porém adiciona o controle linha a linha através das setas do teclado.
+
+tail - Exibe as ultimas 10 linha do conteúdo dos arquivcos de texto.
+
+head - Exibe as primeiras 10 linhas do conteúdo dos arquivos de texto.
+
+find - Utilizado para localizar arquivos e diretórios no sistema.
+
+
